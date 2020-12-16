@@ -22,13 +22,36 @@
   </head>
   <body>
     <div class="container">
-      <header>I'm the header</header>
+      <header class="header-fullsize">I'm the header</header>
 
-      <div class="row">
+      <header
+        class="header-mobile bg-primary d-flex justify-content-between align-items-center px-4 py-2"
+      >
+        <a class="logo text-decoration-none text-light" href="#">Newsweek</a>
+        <div class="d-flex align-items-center">
+          <a
+            class="text-decoration-none text-uppercase text-light mr-3 font-weight-bold"
+            href="#"
+            >Login</a
+          >
+          <button class="subscribe btn text-uppercase mr-3 font-weight-bold">
+            Subscribe >
+          </button>
+          <div class="burger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </header>
+
+      <div class="main-area row mt-3">
         <!--LEFT COLUMN-->
         <div class="col-12 col-md-6 col-lg-3">
-          <section>
-            <h2 class="text-uppercase">Featured stories</h2>
+          <section class="featured">
+            <h2 class="text-uppercase text-secondary font-weight-bold">
+              Featured stories
+            </h2>
             <article>
               <a href="#">
                 <img
@@ -150,8 +173,10 @@
 
         <!--CENTER COLUMN-->
         <div class="col-12 col-md-6 col-lg-5 order-first order-md-0">
-          <section>
-            <h2 class="text-uppercase">Top story</h2>
+          <section class="top-story">
+            <h2 class="text-uppercase text-secondary font-weight-bold">
+              Top story
+            </h2>
             <article>
               <a href="#">
                 <img
@@ -176,7 +201,9 @@
             </article>
           </section>
           <section class="my-turn">
-            <h2 class="text-uppercase">My turn</h2>
+            <h2 class="text-uppercase text-secondary font-weight-bold">
+              My turn
+            </h2>
             <div class="row">
               <article class="col-12 col-md-4">
                 <a href="#">
@@ -232,7 +259,9 @@
             </div>
           </section>
           <section class="culture-and-travel">
-            <h2 class="text-uppercase">Culture & Travel</h2>
+            <h2 class="text-uppercase text-secondary font-weight-bold">
+              Culture & Travel
+            </h2>
             <div class="row">
               <article class="col-12 col-md-4">
                 <a href="#">
@@ -286,8 +315,10 @@
               </article>
             </div>
           </section>
-          <section>
-            <h2 class="text-uppercase">More stories</h2>
+          <section class="more-stories">
+            <h2 class="text-uppercase text-secondary font-weight-bold">
+              More stories
+            </h2>
             <article>
               <a class="d-inline-block float-left mr-2 mb-2" href="#">
                 <img
@@ -545,9 +576,13 @@
 
         <!--RIGHT COLUMN-->
         <div class="col-12 col-lg-4">
-          <section>
-            <h2 class="text-uppercase">The debate</h2>
-            <article class="media justify-content-between">
+          <section class="debate">
+            <h2 class="text-uppercase text-secondary font-weight-bold">
+              The debate
+            </h2>
+            <article
+              class="border-top-fat media justify-content-between my-2 py-2"
+            >
               <img
                 class="rounded-circle"
                 src="https://picsum.photos/id/1027/63/63"
@@ -566,10 +601,14 @@
                 </p>
               </div>
             </article>
-            <div class="d-inline-block p-2 rounded-circle bg-dark text-light">
-              VS
+            <div
+              class="versus d-flex align-items-center justify-content-between"
+            >
+              <span class="p-2 rounded-circle bg-dark text-light">VS</span>
             </div>
-            <article class="media justify-content-between">
+            <article
+              class="border-bottom-fat media justify-content-between my-2 py-2"
+            >
               <div class="media-body">
                 <h3>
                   <a class="text-decoration-none text-reset" href="#"
@@ -589,10 +628,12 @@
               />
             </article>
           </section>
-          <section>
-            <h2 class="text-uppercase">Opinion</h2>
+          <section class="opinion">
+            <h2 class="text-uppercase text-secondary font-weight-bold">
+              Opinion
+            </h2>
             <article
-              class="media mt-3 justify-content-between border border-top-0 border-left-0 border-right-0"
+              class="media mt-3 pb-2 justify-content-between border border-top-0 border-left-0 border-right-0"
             >
               <img
                 class="rounded-circle"
@@ -614,7 +655,7 @@
               </div>
             </article>
             <article
-              class="media mt-3 justify-content-between border border-top-0 border-left-0 border-right-0"
+              class="media mt-3 pb-2 justify-content-between border border-top-0 border-left-0 border-right-0"
             >
               <img
                 class="rounded-circle"
@@ -632,6 +673,160 @@
                 </h3>
                 <p class="text-uppercase">
                   By <span class="font-weight-bold">Alan Dershowitz</span>
+                </p>
+              </div>
+            </article>
+            <article
+              class="media mt-3 pb-2 justify-content-between border border-top-0 border-left-0 border-right-0"
+            >
+              <img
+                class="rounded-circle"
+                src="https://picsum.photos/id/1027/63/63"
+                alt="Lorem picsum..."
+                width="63"
+                height="63"
+              />
+              <div class="media-body ml-2">
+                <h3>
+                  <a class="text-decoration-none text-reset" href="#"
+                    >Brexit Has Northern Ireland's Very Future Hanging in the
+                    Balance
+                  </a>
+                </h3>
+                <p class="text-uppercase">
+                  By <span class="font-weight-bold">Duncan Morrow</span>
+                </p>
+              </div>
+            </article>
+            <article
+              class="media mt-3 pb-2 justify-content-between border border-top-0 border-left-0 border-right-0"
+            >
+              <img
+                class="rounded-circle"
+                src="https://picsum.photos/id/550/63/63"
+                alt="Lorem picsum..."
+                width="63"
+                height="63"
+              />
+              <div class="media-body ml-2">
+                <h3>
+                  <a class="text-decoration-none text-reset" href="#">
+                    Fakhrizadeh and Soleimani Were Even More Justified Killings
+                    Than bin Laden
+                  </a>
+                </h3>
+                <p class="text-uppercase">
+                  By <span class="font-weight-bold">Alan Dershowitz</span>
+                </p>
+              </div>
+            </article>
+            <article
+              class="media mt-3 pb-2 justify-content-between border border-top-0 border-left-0 border-right-0"
+            >
+              <img
+                class="rounded-circle"
+                src="https://picsum.photos/id/1027/63/63"
+                alt="Lorem picsum..."
+                width="63"
+                height="63"
+              />
+              <div class="media-body ml-2">
+                <h3>
+                  <a class="text-decoration-none text-reset" href="#"
+                    >Brexit Has Northern Ireland's Very Future Hanging in the
+                    Balance
+                  </a>
+                </h3>
+                <p class="text-uppercase">
+                  By <span class="font-weight-bold">Duncan Morrow</span>
+                </p>
+              </div>
+            </article>
+            <article
+              class="media mt-3 pb-2 justify-content-between border border-top-0 border-left-0 border-right-0"
+            >
+              <img
+                class="rounded-circle"
+                src="https://picsum.photos/id/550/63/63"
+                alt="Lorem picsum..."
+                width="63"
+                height="63"
+              />
+              <div class="media-body ml-2">
+                <h3>
+                  <a class="text-decoration-none text-reset" href="#">
+                    Fakhrizadeh and Soleimani Were Even More Justified Killings
+                    Than bin Laden
+                  </a>
+                </h3>
+                <p class="text-uppercase">
+                  By <span class="font-weight-bold">Alan Dershowitz</span>
+                </p>
+              </div>
+            </article>
+            <article
+              class="media mt-3 pb-2 justify-content-between border border-top-0 border-left-0 border-right-0"
+            >
+              <img
+                class="rounded-circle"
+                src="https://picsum.photos/id/1027/63/63"
+                alt="Lorem picsum..."
+                width="63"
+                height="63"
+              />
+              <div class="media-body ml-2">
+                <h3>
+                  <a class="text-decoration-none text-reset" href="#"
+                    >Brexit Has Northern Ireland's Very Future Hanging in the
+                    Balance
+                  </a>
+                </h3>
+                <p class="text-uppercase">
+                  By <span class="font-weight-bold">Duncan Morrow</span>
+                </p>
+              </div>
+            </article>
+            <article
+              class="media mt-3 pb-2 justify-content-between border border-top-0 border-left-0 border-right-0"
+            >
+              <img
+                class="rounded-circle"
+                src="https://picsum.photos/id/550/63/63"
+                alt="Lorem picsum..."
+                width="63"
+                height="63"
+              />
+              <div class="media-body ml-2">
+                <h3>
+                  <a class="text-decoration-none text-reset" href="#">
+                    Fakhrizadeh and Soleimani Were Even More Justified Killings
+                    Than bin Laden
+                  </a>
+                </h3>
+                <p class="text-uppercase">
+                  By <span class="font-weight-bold">Alan Dershowitz</span>
+                </p>
+              </div>
+            </article>
+            <article
+              class="media mt-3 pb-2 justify-content-between border border-top-0 border-left-0 border-right-0"
+            >
+              <img
+                class="rounded-circle"
+                src="https://picsum.photos/id/1027/63/63"
+                alt="Lorem picsum..."
+                width="63"
+                height="63"
+              />
+              <div class="media-body ml-2">
+                <h3>
+                  <a class="text-decoration-none text-reset" href="#"
+                    >Brexit Has Northern Ireland's Very Future Hanging in the
+                    Balance
+                  </a>
+                </h3>
+                <p class="text-uppercase">
+                  By <span class="font-weight-bold">Duncan Morrow</span>
                 </p>
               </div>
             </article>

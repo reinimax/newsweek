@@ -1,3 +1,104 @@
+.bg-primary {
+  background-color: #f72210 !important;
+}
+
+.text-primary {
+  color: #f72210 !important;
+}
+
+.bg-secondary {
+  background-color: rgba(3, 3, 3, 0.4) !important;
+}
+
+.text-secondary {
+  color: rgba(3, 3, 3, 0.4) !important;
+}
+
 .container {
   max-width: 1310px;
+}
+
+/* My own classes */
+.header-fullsize {
+  display: none;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.subscribe {
+  background-color: #ffe400 !important;
+  border-radius: 24px;
+  padding: 3px 15px;
+}
+
+.burger-menu > span {
+  display: block;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  height: 4px;
+  width: 30px;
+  background-color: rgba(255, 255, 255, 0.55);
+}
+
+.main-area h2 {
+  font-size: 1rem;
+}
+
+.featured h3,
+.top-story h3 {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.my-turn h3,
+.culture-and-travel h3 {
+  font-size: 1rem;
+  font-weight: 900;
+  color: rgba(3, 3, 3, 0.4) !important;
+}
+
+.more-stories h3 {
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.debate h3,
+.opinion h3 {
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.debate p,
+.opinion p {
+  font-size: 0.9rem;
+}
+
+.border-top-fat {
+  border-top: 3px solid rgba(3, 3, 3, 0.2);
+}
+
+.border-bottom-fat {
+  border-bottom: 3px solid rgba(3, 3, 3, 0.2);
+}
+
+.versus::before,
+.versus::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 50%;
+  border-top: 1px solid rgba(3, 3, 3, 0.2);
+  border-bottom: 1px solid rgba(3, 3, 3, 0.2);
+}
+
+@media (min-width: 992px) {
+  .header-mobile {
+    display: none !important;
+  }
+  .header-fullsize {
+    display: block;
+  }
 }
