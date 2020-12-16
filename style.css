@@ -1,5 +1,11 @@
-.bg-primary {
+.bg-primary,
+.badge-primary {
   background-color: #f72210 !important;
+}
+
+.btn-primary {
+  background-color: #f72210 !important;
+  border-color: #f72210 !important;
 }
 
 .text-primary {
@@ -92,6 +98,12 @@
   width: 50%;
   border-top: 1px solid rgba(3, 3, 3, 0.2);
   border-bottom: 1px solid rgba(3, 3, 3, 0.2);
+}
+
+.magazine h2,
+.editor-pick h2,
+.magazine h3 {
+  font-size: 1.25rem;
 }
 
 @media (min-width: 992px) {
