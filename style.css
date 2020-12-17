@@ -151,6 +151,31 @@
   max-width: 100%;
 }
 
+footer {
+  color: rgb(102, 102, 102);
+}
+
+footer .nav-item {
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: inherit !important;
+  font-size: inherit;
+}
+
+footer .nav-link {
+  display: inline-block;
+}
+
+footer .display-4 {
+  font-size: 3rem;
+}
+
+footer span {
+  font-size: 0.8rem;
+}
+
 @media (min-width: 992px) {
   .header-mobile {
     display: none !important;
