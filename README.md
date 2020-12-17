@@ -27,4 +27,6 @@ So far, I found Bootstrap to be quite tedious. Here's what I don't like about it
 
 What I found positive about Bootstrap is above all the amazing "grid"-System that allows you to set up a responsive layout in no time without any work up-front. Just add in a few col-*-* classes and you're ready to go. As noted above, you cannot do everything with it and I would have probably preferred a system based on a real grid instead of something that calls itself "grid", but is really flexbox under the hood. Anyway, in most cases the Bootstrap "grid" will suffice and it is fast and easy.
 
+I consider the project finished now, though it's not the best quality. It works for the most part, though some things are still missing. This project was - all in all - quite quick and dirty. Using Bootstrap surely speeded things up a bit, but on the other hand it also made stuff more complicated.
+I also think that a News-site is probably a bad use-case for Bootstrap (though this one was made originally using it). Apart from the "free" responsive layout, Bootstrap hasn't much to offer here. A better use-case would probably be some sort of landing page that has a lot of elements like forms, cards, badges, a slider maybe ... that require a lot of styling if you're doing them from scratch.
 
