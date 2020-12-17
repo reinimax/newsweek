@@ -227,6 +227,12 @@ a.stay-white:hover {
   color: #f72210 !important;
 }
 
+@media (min-width: 768px) {
+  .smaller-article img {
+    width: 110px;
+  }
+}
+
 @media (min-width: 992px) {
   .header-mobile {
     display: none !important;
@@ -259,9 +265,5 @@ a.stay-white:hover {
 
   .navigation-second-tier .nav-item:first-child .nav-link {
     color: black;
-  }
-
-  .smaller-article img {
-    width: 110px;
   }
 }
