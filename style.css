@@ -22,11 +22,21 @@
 
 .container {
   max-width: 1310px;
+  background-color: white;
 }
 
 /* My own classes */
+body {
+  background-color: rgb(245, 245, 245);
+}
+
 .header-fullsize {
-  display: none;
+  display: none !important;
+}
+
+.header-mobile {
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
 .logo {
@@ -164,7 +174,7 @@ footer a {
   font-size: inherit;
 }
 
-footer .nav-link {
+.nav-link {
   display: inline-block;
 }
 
@@ -181,7 +191,33 @@ footer span {
     display: none !important;
   }
   .header-fullsize {
-    display: block;
+    display: flex !important;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  .navigation-top .nav-link {
+    font-size: 1.2rem;
+    color: black;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    font-weight: 700;
+  }
+
+  .header-fullsize .search {
+    color: rgba(0, 0, 0, 0.55);
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .navigation-second-tier .nav-link {
+    font-size: 1.2rem;
+    color: rgba(3, 3, 3, 0.4);
+    font-weight: 700;
+  }
+
+  .navigation-second-tier .nav-item:first-child .nav-link {
+    color: black;
   }
 
   .smaller-article img {
