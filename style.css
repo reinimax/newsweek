@@ -106,11 +106,60 @@
   font-size: 1.25rem;
 }
 
+.editor-pick h3 {
+  font-size: 1.5rem;
+}
+
+.categories-section h2,
+.categories-section h3 {
+  font-size: 1.4rem;
+}
+
+.smaller-article article {
+  border-bottom: 1px solid rgba(3, 3, 3, 0.2);
+}
+
+.smaller-article article:last-child {
+  border-bottom: 0;
+}
+
+.smaller-article h3 {
+  font-size: 1.1rem;
+}
+
+.smaller-article img {
+  max-width: 258px;
+}
+
+.ads h2 {
+  font-size: 1rem;
+}
+
+.ads h3 {
+  font-size: 1.5rem;
+}
+
+.newsletter img {
+  max-width: 100%;
+}
+
+.newsletter .d-block {
+  min-width: 50%;
+}
+
+.newsletter input {
+  max-width: 100%;
+}
+
 @media (min-width: 992px) {
   .header-mobile {
     display: none !important;
   }
   .header-fullsize {
     display: block;
+  }
+
+  .smaller-article img {
+    width: 110px;
   }
 }
