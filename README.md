@@ -35,7 +35,7 @@ And of course, simply using the standard CSS Grid would take care of this proble
 ## Built with
 
 - [Bootstrap](https://getbootstrap.com/)
-- [Picsum](https://picsum.photos)
+- [Lorem Picsum](https://picsum.photos)
 
 ## Demo
 
